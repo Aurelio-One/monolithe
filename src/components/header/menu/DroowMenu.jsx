@@ -7,9 +7,7 @@ const menuContent = [
   {
     name: 'Accueil',
     dropdownMenu: [
-      { name: 'Main Demo', to: '/' },
-      { name: 'One Page 2', to: '/demo-2' },
-      { name: 'One Page 3', to: '/demo-3' },
+      { name: 'Présentation des projets', to: '/' },
     ],
   },
   {
@@ -19,8 +17,7 @@ const menuContent = [
         name: 'Carousel',
         dropdownMenu: [
           { name: 'Plein écran', to: '/slider' },
-          { name: 'Padding Screen', to: '/slider-2' },
-          { name: 'Mi écran', to: '/slider-3' },
+          { name: 'Ecran scindé', to: '/slider-3' },
         ],
       },
       {
