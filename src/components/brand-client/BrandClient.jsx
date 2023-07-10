@@ -59,9 +59,7 @@ function BrandClient({className, ...restProps}: DsnGridProps) {
                             </div>
                             <div className="info">
                                 <div className="content">
-                                    <div className="icon">
-                                        <FontAwesomeIcon icon={faPlus}/>
-                                    </div>
+ 
 
                                     <div className="entry">
                                         <div>
