@@ -1,15 +1,11 @@
-@import "../../assets/sass/helper";
+@import '../../assets/sass/helper';
 
 .dsn-services {
-
-
-  .service-item{
+  .service-item {
     position: relative;
-
   }
 
   &.service-one .service-item {
-
     @include media_991(min) {
       padding: 50px 45px;
     }
@@ -25,13 +21,11 @@
     @include media_768() {
       background: $assistant-color;
       box-shadow: 15px 15px 30px rgb(0 0 0 / 30%);
-
     }
-
 
     &:before,
     &:after {
-      content: "";
+      content: '';
       position: absolute;
       width: 30px;
       height: 30px;
@@ -52,8 +46,10 @@
     }
 
     .icon {
-      svg, img {
+      svg,
+      img {
         height: 75px;
+        width: 75px;
       }
     }
 
@@ -63,7 +59,7 @@
   }
 
   &.service-tow {
-    p{
+    p {
       max-width: 450px;
     }
     .line-before {
@@ -74,5 +70,3 @@
     }
   }
 }
-
-

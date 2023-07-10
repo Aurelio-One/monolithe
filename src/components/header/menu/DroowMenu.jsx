@@ -7,7 +7,7 @@ const menuContent = [
   {
     name: 'Accueil',
     dropdownMenu: [
-      { name: 'Présentation des projets', to: '/' },
+      { name: 'Tous les projets', to: '/' },
     ],
   },
   {
