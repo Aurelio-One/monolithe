@@ -1,6 +1,6 @@
 import React, {useState, Suspense} from "react";
 import {useSelector} from "react-redux";
-import {Route, Routes} from "react-router-dom";
+import {Route, Routes } from "react-router-dom";
 import useEffectLocation from "../hooks/useEffectLocation";
 
 import './style.scss';
@@ -64,7 +64,7 @@ const Router = () => {
                     <Route exact path="/about" element={<About/>}/>
                     <Route exact path="/contact" element={<Contact/>}/>
                     <Route exact path="/blog-details" element={<BlogDetails/>}/>
-                    <Route exact path="*" element={<h1>Not Found</h1>}/>
+                    <Route exact path="*" element={<MainDemo/>}/>
                 </Routes>
             </Suspense>
         </div>
