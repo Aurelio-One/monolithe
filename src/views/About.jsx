@@ -84,7 +84,7 @@ function About() {
 
       {/*Start Service Section*/}
       <Container className='section-margin'>
-        <TitleSection description='Client see'>
+        <TitleSection description='Leur avis'>
           Les retours de nos clients.
         </TitleSection>
         <TestimonialTow
