@@ -100,7 +100,7 @@ ParallaxImage.defaultProps = {
     height: "100vh",
     heightTable: "80vh",
     heightMobile: "50vh",
-    overlay: 0,
+    overlay: 5,
     triggerHook: "bottom",
     animationActive: true,
     speed: 30,

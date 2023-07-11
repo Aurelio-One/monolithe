@@ -15,6 +15,10 @@
 
   .inner-img {
     height: 70vh;
+    
+    [data-overlay]:before {
+      opacity: 0 !important;
+    }
   }
 
   .port-classic & .inner-img {
