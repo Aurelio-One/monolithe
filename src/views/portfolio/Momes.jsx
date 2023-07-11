@@ -138,7 +138,7 @@ const Momes = ({ data }) => {
 
       {/*Start Box Info With Image*/}
       <BoxImageVertical
-        src='/assets/img/project/project3/7.webp'
+        src='/assets/img/project/project3/7.jpg'
         className='section-margin'
       >
         <FadeUpTrigger>
