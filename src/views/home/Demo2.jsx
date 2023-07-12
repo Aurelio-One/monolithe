@@ -40,7 +40,7 @@ function Demo2(props) {
             <Container className="under-header section-margin">
                 <Row>
                     <Col lg={{span: 8, offset: 4}}>
-                        <PortfolioSwiper desktop={{slidesPerView: 2.5}} grabCursor/>
+                        <PortfolioSwiper desktop={{slidesPerView: 2.5}} />
                     </Col>
                 </Row>
             </Container>
@@ -105,7 +105,7 @@ function Demo2(props) {
                 <TitleSection description="our team">
                     The best team ever!
                 </TitleSection>
-                <Team loop grabCursor/>
+                <Team loop />
             </Container>
             {/*End Team*/}
 

@@ -153,7 +153,7 @@ function SliderPortfolio({
     spaceBetween: 50,
     slidesPerView: 1,
     parallax: true,
-    speed: 1500,
+    speed: 1700,
     onInit: init,
     onSlideChange: swiperChange,
     onSwiper: setBgSwiper,
@@ -174,7 +174,7 @@ function SliderPortfolio({
       >
         <Swiper
           {...optionSwiper}
-          grabCursor
+          
         >
           {dataProject.map((item, key) => (
             <SwiperSlide

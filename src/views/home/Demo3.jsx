@@ -64,7 +64,7 @@ function Demo3(props) {
             <Container as={TitleSection} description="Our Work" className="mt-section">
                 Featured Projects
             </Container>
-            <PortfolioSwiper className="mb-section" grabCursor autoplay/>
+            <PortfolioSwiper className="mb-section"  autoplay/>
             {/*End Portfolio Swiper*/}
 
             {/*Start Box Info With Image*/}
@@ -102,7 +102,7 @@ function Demo3(props) {
 
             {/*Start Testimonial*/}
             <Container className="section-margin">
-                <Testimonial autoHeight loop grabCursor title="Les retours de nos clients."/>
+                <Testimonial autoHeight loop  title="Les retours de nos clients."/>
             </Container>
             {/*End Testimonial*/}
 
@@ -111,7 +111,7 @@ function Demo3(props) {
                 <TitleSection description="Latest News">
                     Latest & Greatest Post
                 </TitleSection>
-                <BlogSwiper grabCursor loop autoHeight/>
+                <BlogSwiper  loop autoHeight/>
             </Container> */}
             {/*End Blog*/}
 

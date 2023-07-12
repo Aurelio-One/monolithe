@@ -49,18 +49,18 @@
 
       .post-info, .dsn-description, .btn-default, .title-heading:not(.chars) {
         transition-property: opacity, visibility, transform, -webkit-transform;
-        transition-duration: 0.7s;
+        transition-duration: .5s;
         transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
       }
 
-      .dsn-description {
+/*       .dsn-description {
         transition-delay: 0.1s;
       }
 
       .btn-default {
         transition-delay: 0.2s;
       }
-
+ */
       &:not(.dsn-active) {
         .post-info, .dsn-description, .title-heading, .btn-default {
           opacity: 0;
@@ -169,7 +169,7 @@
     .next-container {
       width: 40px;
       height: 40px;
-      cursor: pointer;
+      cursor: none;
       display: flex;
       align-items: center;
       justify-content: center;

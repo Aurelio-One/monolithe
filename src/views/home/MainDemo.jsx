@@ -67,7 +67,7 @@ const MainDemo = () => {
       >
         Identité visuelle et développement web
       </Container>
-      <PortfolioSwiper grabCursor />
+      <PortfolioSwiper />
       {/*End Portfolio Swiper*/}
 
       {/*Start Box Info With Image*/}
@@ -124,7 +124,7 @@ const MainDemo = () => {
         <Testimonial
           autoHeight
           loop
-          grabCursor
+          
           title='Les retours de nos clients.'
         />
       </Container>
@@ -135,7 +135,7 @@ const MainDemo = () => {
                 <TitleSection description="Latest News">
                     Latest & Greatest Post
                 </TitleSection>
-                <BlogSwiper grabCursor loop autoHeight/>
+                <BlogSwiper  loop autoHeight/>
             </Container> */}
       {/*End Blog*/}
 

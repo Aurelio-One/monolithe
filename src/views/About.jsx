@@ -76,7 +76,7 @@ function About() {
           </TitleSection>
           <Team
             loop
-            grabCursor
+            
           />
         </Container>
       </section> */}
@@ -88,7 +88,7 @@ function About() {
           Les retours de nos clients.
         </TitleSection>
         <TestimonialTow
-          grabCursor
+          
           loop
         />
       </Container>

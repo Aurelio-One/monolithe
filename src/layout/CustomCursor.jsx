@@ -55,7 +55,7 @@ function CustomCursor({duration, durationChangeSize, size, scale, ease}) {
 }
 
 CustomCursor.defaultProps = {
-    duration: 0.5,
+    duration: 0.3,
     durationChangeSize: 0.3,
     size: 30,
     scale: 75

@@ -1,7 +1,6 @@
-@import "../assets/sass/helper";
+@import '../assets/sass/helper';
 
 .cursor {
-
   @include media_991(min) {
     position: fixed;
     width: 30px;

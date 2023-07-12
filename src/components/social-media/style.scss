@@ -27,7 +27,7 @@
       z-index: 2;
       fill: $heading-color;
       width: 8px;
-      cursor: pointer;
+      cursor: none;
       transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
     }
 
@@ -59,7 +59,7 @@
       fill: $heading-color;
       width: 16px;
       height: 16px;
-      cursor: pointer;
+      cursor: none;
     }
 
     &:after {
@@ -99,7 +99,7 @@
         fill: $heading-color;
         width: 16px;
         height: 16px;
-        cursor: pointer;
+        cursor: none;
       }
     }
   }
