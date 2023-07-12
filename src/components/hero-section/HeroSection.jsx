@@ -17,7 +17,7 @@ const HeroContent = {
     Nous sculptons une présence en ligne à votre image, fusionnant design captivant et fonctionnalités puissantes pour faire émerger votre entreprise dans l'univers digital.`,
     authorTitle: "Aurelio Maurici",
     authorJob: "web designer & developer",
-    experienceNumber: "5",
+    experienceNumber: "20",
     experienceDescription: `ans de présence\n digitale`,
     heroImage: '/assets/img/about.jpg'
 };
