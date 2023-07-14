@@ -21,8 +21,8 @@ function Layout(
             <LoadingPage/>
             {activeScrollbar ? <MainScrollBar  {...restProps}>{children}</MainScrollBar> : children}
             <CustomCursor
-                duration={0.5}
-                durationChangeSize={0.3}
+                duration={0}
+                durationChangeSize={0}
                 size={30}
                 scale={75}
                 ease="power2.out"

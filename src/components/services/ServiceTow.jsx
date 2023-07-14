@@ -9,7 +9,7 @@ import {dsnCN} from "../../hooks/helper";
 const ServicesDetails = [
     {
         title: "BRAND IDENTITY",
-        description: `Nous façànnons une identité de marque unique et percutante qui captivera votre public cible.`,
+        description: `Nous façonnons une identité de marque unique et percutante qui captivera votre public cible.`,
     },
     {
         title: "UI-UX DESIGN",
